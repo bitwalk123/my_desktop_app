@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Hello World!
+Name[ja]=こんにちは、世界！
+Comment=Sample GUI
+Keywords=Hello World!;
+Keywords[ja]=こんにちは、世界！;
+Exec=/home/bitwalk/MyProjects/my_desktop_app/app.sh
+Icon=/home/bitwalk/MyProjects/my_desktop_app/app.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;
