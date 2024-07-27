@@ -2,6 +2,7 @@ import platform
 import sys
 import PySide6
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (
     QApplication,
     QLabel,
@@ -12,6 +13,8 @@ from PySide6.QtWidgets import (
 class Hello(QMainWindow):
     def __init__(self):
         super().__init__()
+        icon = QIcon('app.png')
+        self.setWindowIcon(icon)
         self.setWindowTitle('Hello World!')
 
         print('> Platform', platform.platform())
