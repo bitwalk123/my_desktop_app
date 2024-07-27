@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 import platform
 import sys
 import PySide6
